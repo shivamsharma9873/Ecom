@@ -1,0 +1,46 @@
+.background {
+    background: linear-gradient(to right, rgb(88, 88, 230), rgb(202, 189, 189), rgb(77, 77, 217), rgb(186, 168, 168));
+}
+
+.mid-section {
+    height: 463px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.first,
+.second {
+    width: 100%;
+}
+
+.first {
+    height: 90%;
+    overflow: auto;
+    
+}
+.first::-webkit-scrollbar{
+    display: none;
+}
+.second {
+    height: 8%;
+    }
+
+.center,.left,.right{
+    width: 60%;
+    
+    
+}    
+.left{
+    float: left;
+    text-align: left;
+}
+.right{
+    float: right;
+    text-align: right;
+}
+.center{
+    margin: auto;
+    clear: both;
+    margin-bottom: 10px;
+    text-align: center;
+}
